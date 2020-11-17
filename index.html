@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameMaze</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="button">
+      <a href="#" class="play-game">Play Game</a>
+      <a href="#" class="level">
+        <select>
+          <option value="50">Easy</option>
+          <option value="25">Medium</option>
+          <option value="20">Hard</option>
+          <option value="10">Genius</option>
+        </select>
+      </a>
+    </div>
+    <canvas></canvas>
+
+    <div class="back">
+      <a href="#" class="back-game">Go Back</a>
+    </div>
+
+    <div class="win">
+      <h1>You are Genius!</h1>
+      <h3></h3>
+    </div>
+  </body>
+  <script src="js/const.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/target.js"></script>
+  <script src="js/backgroundWall.js"></script>
+  <script src="js/game.js"></script>
+</html>
